@@ -1,0 +1,7 @@
+com/taskmanager/model/Task$TaskStatus.class
+com/taskmanager/controller/TaskController$ErrorResponse.class
+com/taskmanager/service/TaskService.class
+com/taskmanager/model/Task.class
+com/taskmanager/TaskManagerApp.class
+com/taskmanager/controller/TaskController.class
+com/taskmanager/controller/TaskController$TaskStats.class
