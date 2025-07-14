@@ -32,14 +32,10 @@ public class TaskController {
         });
 
         // Handle preflight OPTIONS requests
-        options("/*", (request, response) -> {
-            return "OK";
-        });
+        options("/*", (request, response) -> "OK");
 
         // Set JSON content type for all responses
-        before((request, response) -> {
-            response.type("application/json");
-        });
+        before((request, response) -> response.type("application/json"));
 
         // GET /api/tasks - Get all tasks
         get("/api/tasks", (request, response) -> {
@@ -225,7 +221,10 @@ public class TaskController {
             this.timestamp = System.currentTimeMillis();
         }
 
+        @SuppressWarnings("unused") // Used by Gson for JSON serialization
         public String getError() { return error; }
+
+        @SuppressWarnings("unused") // Used by Gson for JSON serialization
         public long getTimestamp() { return timestamp; }
     }
 
@@ -243,8 +242,13 @@ public class TaskController {
             this.completed = completed;
         }
 
+        @SuppressWarnings("unused") // Used by Gson for JSON serialization
         public int getTotal() { return total; }
+
+        @SuppressWarnings("unused") // Used by Gson for JSON serialization
         public int getPending() { return pending; }
+
+        @SuppressWarnings("unused") // Used by Gson for JSON serialization
         public int getCompleted() { return completed; }
     }
 }

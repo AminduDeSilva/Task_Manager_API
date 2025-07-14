@@ -115,12 +115,4 @@ public class TaskService {
     public int getTaskCount() {
         return tasks.size();
     }
-
-    /**
-     * Clear all tasks (useful for testing)
-     */
-    public void clearAllTasks() {
-        tasks.clear();
-        idCounter.set(1);
-    }
 }

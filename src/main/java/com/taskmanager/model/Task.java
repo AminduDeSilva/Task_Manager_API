@@ -73,10 +73,6 @@ public class Task {
         this.status = TaskStatus.PENDING;
     }
 
-    public boolean isCompleted() {
-        return this.status == TaskStatus.DONE;
-    }
-
     @Override
     public String toString() {
         return "Task{" +
