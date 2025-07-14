@@ -2,7 +2,7 @@
 
 A simple and elegant Task Manager REST API built with Java, demonstrating object-oriented programming principles and RESTful web service design. This project showcases clean code architecture, proper separation of concerns, and a functional web interface.
 
-## 🚀 Features
+## Features
 
 - **Complete CRUD Operations**: Create, Read, Update, and Delete tasks
 - **RESTful API Design**: Clean, intuitive endpoints following REST conventions
@@ -13,7 +13,7 @@ A simple and elegant Task Manager REST API built with Java, demonstrating object
 - **Error Handling**: Comprehensive error responses and validation
 - **API Statistics**: Task completion metrics and analytics
 
-## 🛠 Technology Stack
+## Technology Stack
 
 - **Java 17**: Modern Java with latest features
 - **Spark Java**: Lightweight web framework for REST API
@@ -22,7 +22,7 @@ A simple and elegant Task Manager REST API built with Java, demonstrating object
 - **HTML5 & JavaScript**: Clean, modern front-end interface
 - **CSS3**: Responsive design with modern styling
 
-## 📋 API Endpoints
+## API Endpoints
 
 ### Tasks Management
 - `GET /api/tasks` - Retrieve all tasks
@@ -38,7 +38,7 @@ A simple and elegant Task Manager REST API built with Java, demonstrating object
 - `GET /health` - Health check endpoint
 - `GET /` - API documentation page
 
-## 🏗 Project Structure
+## Project Structure
 
 ```
 src/
@@ -56,7 +56,7 @@ src/
 │           └── index.html               # Web UI interface
 ```
 
-## 🎯 Object-Oriented Design Principles
+## Object-Oriented Design Principles
 
 ### 1. **Encapsulation**
 - `Task` class with private fields and public getters/setters
@@ -76,7 +76,7 @@ src/
 - Input validation and error handling
 - Atomic operations for ID generation
 
-## 🚦 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Java 17 or higher
@@ -104,7 +104,7 @@ src/
    - **API Documentation**: http://localhost:8080/
    - **Health Check**: http://localhost:8080/health
 
-## 📊 Sample API Usage
+## Sample API Usage
 
 ### Creating a Task
 ```bash
@@ -131,7 +131,7 @@ curl -X PATCH http://localhost:8080/api/tasks/1/done
 curl http://localhost:8080/api/tasks/stats
 ```
 
-## 🎨 Web Interface Features
+## Web Interface Features
 
 The included web interface provides:
 - **Task Creation**: Simple form to add new tasks
@@ -140,7 +140,7 @@ The included web interface provides:
 - **Responsive Design**: Works on desktop and mobile devices
 - **Error Handling**: User-friendly error messages and validation
 
-## 🔧 Configuration
+## Configuration
 
 The application can be configured through environment variables:
 - `PORT`: Set the server port (default: 8080)
@@ -151,7 +151,7 @@ export PORT=9000
 mvn exec:java -Dexec.mainClass="com.taskmanager.TaskManagerApp"
 ```
 
-## 🧪 Testing the API
+## Testing the API
 
 You can test the API using:
 1. **Web Interface**: Use the included HTML interface at `/index.html`
@@ -159,14 +159,14 @@ You can test the API using:
 3. **Postman**: Import the endpoints for interactive testing
 4. **Browser**: GET endpoints can be tested directly in the browser
 
-## 🚀 Sample Data
+## Sample Data
 
 The application starts with sample tasks for demonstration:
 - "Learn Java OOP" (Pending)
 - "Build REST API" (Completed)
 - "Write Documentation" (Pending)
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 This project can be extended with:
 - Database persistence (H2, PostgreSQL, MongoDB)
@@ -180,21 +180,4 @@ This project can be extended with:
 - Docker containerization
 - API versioning
 
-## 💡 Key Learning Outcomes
 
-This project demonstrates:
-- **Java OOP Principles**: Encapsulation, abstraction, and proper class design
-- **REST API Design**: HTTP methods, status codes, and resource-based URLs
-- **Web Framework Usage**: Lightweight Spark Java framework
-- **JSON Handling**: Serialization and deserialization with Gson
-- **Error Handling**: Comprehensive exception handling and user feedback
-- **Front-end Integration**: JavaScript fetch API and DOM manipulation
-- **Project Structure**: Maven-based Java project organization
-
-## 📝 License
-
-This project is created for educational and demonstration purposes.
-
----
-
-**Built with ❤️ to demonstrate Java OOP and REST API development skills**
