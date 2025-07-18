@@ -140,6 +140,18 @@ The included web interface provides:
 - **Responsive Design**: Works on desktop and mobile devices
 - **Error Handling**: User-friendly error messages and validation
 
+----------------------
+<img  alt="Web Interface" src="https://github.com/user-attachments/assets/fbfd4d31-5594-477c-aa45-483428dfa0b6" />
+
+----------------------
+
+<img  alt="Web Interface" src="https://github.com/user-attachments/assets/20530695-4fbd-4288-93f6-1b4aa2e82828" />
+
+
+
+---
+
+
 ## Configuration
 
 The application can be configured through environment variables:
@@ -159,12 +171,6 @@ You can test the API using:
 3. **Postman**: Import the endpoints for interactive testing
 4. **Browser**: GET endpoints can be tested directly in the browser
 
-## Sample Data
-
-The application starts with sample tasks for demonstration:
-- "Learn Java OOP" (Pending)
-- "Build REST API" (Completed)
-- "Write Documentation" (Pending)
 
 ## Future Enhancements
 
